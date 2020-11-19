@@ -1,0 +1,10 @@
+1. A central processing unit (CPU), input/output interfaces and memory.
+
+2. All code that runs outside the operating system's kernel. 
+
+3. The shell is a program that takes commands from the keyboard and gives them to
+the operating system to perform. It's a scripting language, that works for Linux-based machines. 
+
+4. The Terminal that is already on the computer, Linux.  
+
+5. A shell program's main task is to read commands and run other programs. 

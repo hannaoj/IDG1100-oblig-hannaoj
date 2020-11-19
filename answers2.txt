@@ -1,0 +1,73 @@
+6. The octal representation of a file is 600. 
+
+7 Superuser. Ecery UNIX system comes with a spesial user, and this user 
+is known as the superuser and is normally given the username root. 
+
+8. Read, write and execute 
+
+9. I didn't find much info about 2020, but i found some information from last year. In 2019 Windows was used on 72,1% of servers worldwide, 
+and Linus accounted for 13,6% of servers. Source:
+https://www.statista.com/statistics/915085/global-server-share-by-os/?fbclid=IwAR2iVgQvRKl3nUTzHxfgl_hTUNlyyH4mFFFX9QteLfM1m8ej4AzUrQRlapo
+
+10. SSH command: 
+-cd to change directional 
+-mkdir to create a new folder 
+-rm remove a file 
+
+11. pwd command 
+
+12. mv command
+
+13. Crontab, it's a list of commands that you want to run on a regular schedule. 
+
+14. Execute command, kill command
+
+15. su command 
+
+16.
+#!/bin/bash
+Crontab 30 * * * sun 
+
+17. 
+#!/bin/bash
+Crontab 30 * 15 * * 
+
+18. 
+#!/bin/bash
+Crontab 30 5 * 6 0-1
+
+19. 
+#!/bin/bash
+Echo "Hanna $(date)" 
+
+20.  
+#!/bin/bash
+read -p "Please enter first number:5" num1
+read -p "Please enter second number:5" num2
+echo "The total is: "10$((num1+num2))" 
+
+21. 
+#!/bin/bash
+read -p "please enter username?" USERNAME; 
+echo "$USERNAME stored" 
+
+22. 
+#!/bin/bash
+HOSTNAME=$(hostname)
+echo "this script is running on ($hostname)"
+
+23.
+#!/bin/bash
+directory =$(pwd)
+echo $dierectory 
+
+24.
+Step 1: Open a Terminal Window (Command Line) in Linux.
+Step 2: write todays date: 30 * 17 11  2 date.sh 
+step 3: echo "todays date"
+step 4: assign to a txt file: >> /home/exapmle1.txt
+the line will look like this: "task * 17 11 * echo "task scheduled at $(date)" >> /home/example1.txt
+step 5: navigate to /home, and touch a file named example1.txt
+step 6: start the cron service: service cron start
+step 7: cat the example1.txt file to view the output 
+
